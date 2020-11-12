@@ -104,11 +104,12 @@ a{
             .chrome__btn {
                 background-color: var(--Soft-Blue);
                 color: #fff;
+                border: none;
             }
             .firefox__btn {
-                
-                /* background-color: var(--Grayish-Blue); */
-                box-shadow: 0 2px 5px rgba(107, 172, 245, 0.2);
+                border: none;
+                background-color: transparent;
+                box-shadow: 0 2px 5px rgba(107, 172, 245, 0.2), 0 -1px 5px rgba(107, 172, 245, 0.2);
             }
 
 /* ========= SECTION_FEATURE ============= */
