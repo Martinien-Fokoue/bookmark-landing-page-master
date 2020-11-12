@@ -53,3 +53,18 @@ emailInput.addEventListener('focus', function(e){
         emailInput.placeholder = 'Enter your email address';
     }
 });
+
+// Ouverture du menu sur mobile
+let hamburgerBtn = document.querySelector('.hamburger__icon img'),
+        closeIcon = document.querySelector('.close__icon'),
+       mobileNav = document.querySelector('.mobile__nav');
+
+
+    hamburgerBtn.addEventListener('click', function(e){
+        mobileNav.classList.add('toggle');
+    });
+
+    closeIcon.addEventListener('click', function(e){
+        mobileNav.classList.remove('toggle');
+    });
+    
